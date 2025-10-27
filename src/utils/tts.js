@@ -1,6 +1,6 @@
 // src/utils/tts.js
 
-// This function will speak the given text.
+// The 'export' keyword here makes the 'speak' function available for import in other files.
 export const speak = (text) => {
   // Cancel any previous speech that might be ongoing.
   window.speechSynthesis.cancel();
